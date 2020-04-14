@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2020-04-14T10:09:47.914Z" agent="5.0 (Macintosh; Intel Mac OS X 10_13_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.163 Safari/537.36" etag="IbewczS651R0ctA1eMWq" version="12.9.11" type="github">
+<mxfile host="app.diagrams.net" modified="2020-04-14T10:11:55.018Z" agent="5.0 (Macintosh; Intel Mac OS X 10_13_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.163 Safari/537.36" etag="sJJGCaCg6CmQ1toRM4DD" version="12.9.11" type="github">
   <diagram id="-WW9dOLwDgeUJ4MewNTD" name="Page-1">
     <mxGraphModel dx="825" dy="622" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -88,8 +88,8 @@
         <mxCell id="R32jef7YFRfDoom-mxZs-42" value="(b) 垂直扩展 Vertical Scaling" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontStyle=1" parent="1" vertex="1">
           <mxGeometry x="309" y="536" width="167" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="R32jef7YFRfDoom-mxZs-43" value="增加" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;fontStyle=1" parent="1" vertex="1">
-          <mxGeometry x="360" y="228" width="40" height="20" as="geometry" />
+        <mxCell id="R32jef7YFRfDoom-mxZs-43" value="Scale-Out" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;fontStyle=1" parent="1" vertex="1">
+          <mxGeometry x="344" y="234" width="70" height="20" as="geometry" />
         </mxCell>
         <mxCell id="ngIhMRhnUH4AUdWcvpfG-2" value="" style="outlineConnect=0;fontColor=#232F3E;gradientColor=none;fillColor=#D86613;strokeColor=none;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;fontSize=12;fontStyle=0;aspect=fixed;pointerEvents=1;shape=mxgraph.aws4.c4_instance;" vertex="1" parent="1">
           <mxGeometry x="520" y="300" width="30" height="30" as="geometry" />
@@ -112,8 +112,8 @@
             <mxPoint x="347.55065680085363" y="284.42469597167326" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="ngIhMRhnUH4AUdWcvpfG-11" value="释放" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;fontStyle=1" vertex="1" parent="1">
-          <mxGeometry x="365" y="295" width="40" height="20" as="geometry" />
+        <mxCell id="ngIhMRhnUH4AUdWcvpfG-11" value="Scale-In" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="365" y="292" width="60" height="20" as="geometry" />
         </mxCell>
         <mxCell id="ngIhMRhnUH4AUdWcvpfG-12" value="" style="outlineConnect=0;fontColor=#232F3E;gradientColor=none;fillColor=#D86613;strokeColor=none;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;fontSize=12;fontStyle=0;aspect=fixed;pointerEvents=1;shape=mxgraph.aws4.optimized_instance;" vertex="1" parent="1">
           <mxGeometry x="515" y="403" width="47" height="47" as="geometry" />
@@ -123,9 +123,15 @@
         </mxCell>
         <mxCell id="ngIhMRhnUH4AUdWcvpfG-14" value="" style="shape=flexArrow;endArrow=classic;html=1;" edge="1" parent="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="423.45" y="490" as="sourcePoint" />
-            <mxPoint x="350.0006568008536" y="490.42469597167326" as="targetPoint" />
+            <mxPoint x="423.45" y="485" as="sourcePoint" />
+            <mxPoint x="350.0006568008536" y="485.42469597167326" as="targetPoint" />
           </mxGeometry>
+        </mxCell>
+        <mxCell id="ngIhMRhnUH4AUdWcvpfG-15" value="Scale-Up&lt;span style=&quot;font-family: monospace ; font-size: 0px ; font-weight: 400&quot;&gt;%3CmxGraphModel%3E%3Croot%3E%3CmxCell%20id%3D%220%22%2F%3E%3CmxCell%20id%3D%221%22%20parent%3D%220%22%2F%3E%3CmxCell%20id%3D%222%22%20value%3D%22Scale-Out%22%20style%3D%22text%3Bhtml%3D1%3Balign%3Dcenter%3BverticalAlign%3Dmiddle%3Bresizable%3D0%3Bpoints%3D%5B%5D%3Bautosize%3D1%3BfontStyle%3D1%22%20vertex%3D%221%22%20parent%3D%221%22%3E%3CmxGeometry%20x%3D%22345%22%20y%3D%22228%22%20width%3D%2270%22%20height%3D%2220%22%20as%3D%22geometry%22%2F%3E%3C%2FmxCell%3E%3C%2Froot%3E%3C%2FmxGraphModel%3E&lt;/span&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="344" y="426.5" width="70" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="ngIhMRhnUH4AUdWcvpfG-16" value="Scale-Down&lt;span style=&quot;font-family: monospace ; font-size: 0px ; font-weight: 400&quot;&gt;%3CmxGraphModel%3E%3Croot%3E%3CmxCell%20id%3D%220%22%2F%3E%3CmxCell%20id%3D%221%22%20parent%3D%220%22%2F%3E%3CmxCell%20id%3D%222%22%20value%3D%22Scale-Out%22%20style%3D%22text%3Bhtml%3D1%3Balign%3Dcenter%3BverticalAlign%3Dmiddle%3Bresizable%3D0%3Bpoints%3D%5B%5D%3Bautosize%3D1%3BfontStyle%3D1%22%20vertex%3D%221%22%20parent%3D%221%22%3E%3CmxGeometry%20x%3D%22345%22%20y%3D%22228%22%20width%3D%2270%22%20height%3D%2220%22%20as%3D%22geometry%22%2F%3E%3C%2FmxCell%3E%3C%2Froot%3E%3C%2FmxGraphModel%3E&lt;/span&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="365" y="493.5" width="80" height="20" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
